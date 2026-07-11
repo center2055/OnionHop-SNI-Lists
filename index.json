@@ -1,7 +1,30 @@
 {
   "version": 1,
-  "note": "Per-country SNI/front-domain candidate lists for OnionHop's SNI scanner. Each entry points to sni/<code>.txt (one domain per line). Scan these with the app/VPN OFF to find which SNIs work on your network, then apply the working ones as custom SNI hosts.",
+  "note": "Per-country SNI/front-domain candidate lists for OnionHop's SNI scanner. Each entry points to sni/<code>.txt (one domain per line). Scan these with the app/VPN OFF to find which SNIs work on your network, then apply the working ones as custom SNI hosts. Lists are refreshed automatically; the per-network verdict is made on your device, not by the collector.",
   "countries": [
-    { "code": "tm", "name": "Turkmenistan", "file": "sni/tm.txt", "count": 100 }
+    {
+      "code": "ir",
+      "name": "Iran",
+      "file": "sni/ir.txt",
+      "count": 56
+    },
+    {
+      "code": "cn",
+      "name": "China",
+      "file": "sni/cn.txt",
+      "count": 56
+    },
+    {
+      "code": "ru",
+      "name": "Russia",
+      "file": "sni/ru.txt",
+      "count": 56
+    },
+    {
+      "code": "tm",
+      "name": "Turkmenistan",
+      "file": "sni/tm.txt",
+      "count": 156
+    }
   ]
 }

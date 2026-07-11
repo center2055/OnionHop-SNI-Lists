@@ -1,0 +1,77 @@
+# Global SNI/front candidate pool for the OnionHop SNI collector.
+#
+# These are large, widely-used HTTPS hosts (major CDNs, cloud platforms and popular global sites)
+# that make good SNI camouflage / front candidates almost everywhere: blocking them carries heavy
+# collateral, so censors are reluctant to. This pool is added to EVERY country's list as a baseline;
+# per-country domestic candidates live in seeds/<code>.txt. The collector TLS-tests each entry and
+# drops ones that are globally dead. One bare domain per line; comments start with '#'.
+
+# --- Cloudflare ---
+www.cloudflare.com
+cdnjs.cloudflare.com
+ajax.cloudflare.com
+blog.cloudflare.com
+developers.cloudflare.com
+
+# --- Fastly / jsDelivr / other CDNs ---
+www.fastly.com
+cdn.jsdelivr.net
+www.jsdelivr.com
+unpkg.com
+cdn.ampproject.org
+www.akamai.com
+
+# --- Google ---
+www.google.com
+ajax.googleapis.com
+fonts.googleapis.com
+fonts.gstatic.com
+www.gstatic.com
+ssl.gstatic.com
+storage.googleapis.com
+www.googleapis.com
+www.youtube.com
+i.ytimg.com
+www.google-analytics.com
+
+# --- Microsoft / Azure ---
+www.microsoft.com
+ajax.aspnetcdn.com
+azure.microsoft.com
+www.bing.com
+outlook.office.com
+login.microsoftonline.com
+www.office.com
+
+# --- Apple ---
+www.apple.com
+www.icloud.com
+support.apple.com
+
+# --- Amazon / AWS ---
+www.amazon.com
+aws.amazon.com
+d1.awsstatic.com
+s3.amazonaws.com
+
+# --- Popular global sites (high collateral to block) ---
+en.wikipedia.org
+www.wikipedia.org
+www.mozilla.org
+www.reddit.com
+discord.com
+github.com
+raw.githubusercontent.com
+objects.githubusercontent.com
+www.dropbox.com
+www.paypal.com
+www.linkedin.com
+zoom.us
+www.zoom.us
+wordpress.org
+www.wordpress.com
+www.whatsapp.com
+web.telegram.org
+www.tiktok.com
+vercel.com
+www.netlify.com
