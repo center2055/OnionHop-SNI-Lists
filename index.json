@@ -6,25 +6,25 @@
       "code": "ir",
       "name": "Iran",
       "file": "sni/ir.txt",
-      "count": 56
+      "count": 55
     },
     {
       "code": "cn",
       "name": "China",
       "file": "sni/cn.txt",
-      "count": 56
+      "count": 55
     },
     {
       "code": "ru",
       "name": "Russia",
       "file": "sni/ru.txt",
-      "count": 56
+      "count": 55
     },
     {
       "code": "tm",
       "name": "Turkmenistan",
       "file": "sni/tm.txt",
-      "count": 156
+      "count": 155
     }
   ]
 }
