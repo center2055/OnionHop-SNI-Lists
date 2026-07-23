@@ -1,4 +1,5 @@
 ajax.aspnetcdn.com
+ajax.cloudflare.com
 ajax.googleapis.com
 aws.amazon.com
 azure.microsoft.com
