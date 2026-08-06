@@ -15,6 +15,7 @@ belgacom.be
 blog.cloudflare.com
 bodycodi.com
 brickftp.com
+btrans.by
 cardapioweb.com
 cdn.ampproject.org
 cdn.jsdelivr.net
@@ -86,6 +87,7 @@ phrma.org
 questionablequesting.com
 railsplayground.net
 raw.githubusercontent.com
+relcomhost.ru
 rki.de
 rtl.be
 rundschau-online.de
