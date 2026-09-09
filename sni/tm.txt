@@ -28,6 +28,7 @@ core.com
 counterhate.com
 covenanteyes.com
 cuhk.edu.hk
+cybercastco.com
 d1.awsstatic.com
 deccanherald.com
 delicious.com
@@ -45,7 +46,6 @@ ginsara.jp
 github.com
 gmx.at
 gogpayslip.com
-gol.bg
 google.si
 goqsystem.com
 gozambiajobs.com
